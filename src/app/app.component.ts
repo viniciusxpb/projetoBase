@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'projetoBase';
+
+  cliqueiBotaoComponente3() {
+    window.alert("Você clicou no botão do componente 3")
+  }
+
 }

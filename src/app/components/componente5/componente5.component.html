@@ -1,0 +1,8 @@
+<h2>Exemplo de *ngIf em Angular</h2>
+<button (click)="toggleVisibility()">
+  {{ isVisible ? 'Esconder' : 'Mostrar' }} Mensagem
+</button>
+
+<p *ngIf="isVisible">
+  Esta mensagem é exibida porque isVisible é true!
+</p>

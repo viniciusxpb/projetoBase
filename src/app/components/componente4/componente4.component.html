@@ -1,0 +1,40 @@
+Isso é uma lista normal, com valores fixos, apenas no html
+
+<ul>
+    <li>
+        João
+    </li>
+    <li>
+        Pedro
+    </li>
+    <li>
+        Maria
+    </li>
+    <li>
+        Paulo
+    </li>
+</ul>
+
+Agora vou criar uma lista diferente, que faz uso dos valores no arquivo componente4.ts
+
+<ul>
+    <li>
+        {{listaDeComidas[0]}}
+    </li>
+    <li>
+        {{listaDeComidas[1]}}
+    </li>
+    <li>
+        {{listaDeComidas[2]}}
+    </li>
+    <li>
+        {{listaDeComidas[3]}}
+    </li>
+</ul>
+
+Agora vou criar uma lista igual a anterior porém, que usa o ngFor
+
+<ul>
+    <li *ngFor="let comida of listaDeComidas">{{ comida }}</li>
+</ul>
+
