@@ -1,0 +1,25 @@
+<h2>lista de filmes puxando type</h2>
+<button (click)="toggleVisibility()">
+  {{ isVisible ? 'Esconder' : 'Mostrar' }} Mensagem
+</button>
+
+ 
+
+ 
+    <ul *ngIf="isVisible">
+        <li>
+            {{listaDeFilmes[0]}}
+        </li>
+        <li>
+            {{listaDeFilmes[1]}}
+        </li>
+        <li>
+            {{listaDeFilmes[2]}}
+        </li>
+        <li>
+            {{listaDeFilmes[3]}}
+        </li>
+    </ul>
+
+    
+        

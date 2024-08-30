@@ -1,0 +1,8 @@
+<h2>lista de carro</h2>
+<button (click)="toggleVisibility()">
+  {{ isVisible ? 'Esconder' : 'Mostrar' }} Mensagem
+</button>
+
+<p *ngIf="isVisible">
+  ford, gol, ferrari, camaru, fusca
+</p>
