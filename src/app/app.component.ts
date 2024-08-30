@@ -19,8 +19,6 @@ export class AppComponent {
     window.alert("picanha, salada, maracuja, arroz")
   }
 
-  cliqueiBotaoComponente10() {
-    window.alert("picanha")
-  }
+ 
   
 }

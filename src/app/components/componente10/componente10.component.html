@@ -1,18 +1,21 @@
 <h2>lista de botões que ao clicar aparecera a comida preferida deles</h2>
 <div>
+
+    <ul>
+        <li *ngFor="let comida of listaDeComidas">{{ comida }}</li>
+    </ul>
     <ul>
         <li>
-            <button (click)="onClick()">joao</button>
+            <button (click)="cliqueiBotaoComponente10('joao')">joao </button>
         </li>
         <li>
-            <button (click)="onClick()">pedro</button>
+            <button (click)="cliqueiBotaoComponente10('pedro')">pedro</button>
         </li>
         <li>
-            <button (click)="onClick()">maria</button>
+            <button (click)="cliqueiBotaoComponente10('maria')">maria</button>
         </li>
         <li>
-            <button (click)="onClick()">paulo</button>
+            <button (click)="cliqueiBotaoComponente10('paulo')">paulo</button>
         </li>
     </ul>
-    
 </div>

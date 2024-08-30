@@ -12,4 +12,11 @@ export class Componente10Component {
     this.clicked.emit();
   }
 
+   cliqueiBotaoComponente10(valor:string) {
+    window.alert(valor)
+ 
+  }
+  listaDeComidas: string[] = ['pamonha', 'pizza', 'banana', 'pão de queijo'];
+
+
 }
